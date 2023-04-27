@@ -1,0 +1,13 @@
+/* Demo.css */
+
+.file-drop {
+  /* relatively position the container bc the contents are absolute */
+  position: relative;
+  height: 200px;
+  width: 100%;
+  border: 1px solid gray;
+}
+
+.file-drop .file-drop-target {
+  height: 100%;
+}
